@@ -27,16 +27,16 @@
 
   <PropertyGroup Label="Author and Copyright">
     <Authors>Ankur Ranpariya</Authors>
-    <Company>Nukebox Studios Pvt. Ltd.</Company>
-    <Copyright>Nukebox Studios Pvt. Ltd. 2023</Copyright>
+    <Company>iPAHeartBeat</Company>
+    <Copyright>iPAHeartBeat. 2023</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Label="Project Meta and settings.">
-    <Product>Nukebox Inernal NuGet Server</Product>
-    <PackageId>Nukebox.Internal.NuGetServer</PackageId>
+    <Product>C# NuGet Server</Product>
+    <PackageId>iPAHeartBeat.NuGet.Server</PackageId>
     <PackageTags>C#, NewtonSoft Json</PackageTags>
 
-    <RootNamespace>Nukebox.Internal.NuGetServer</RootNamespace>
+    <RootNamespace>iPAHeartBeat.NuGet.Server</RootNamespace>
     <AssemblyName>$(RootNamespace)</AssemblyName>
     <DocumentationFile>/bin/$(Configuration)/$(TargetFranework)/$(AssemblyName).xml</DocumentationFile>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
