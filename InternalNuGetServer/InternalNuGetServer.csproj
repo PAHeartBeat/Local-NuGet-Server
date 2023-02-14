@@ -38,19 +38,23 @@
 
     <RootNamespace>Nukebox.Internal.NuGetServer</RootNamespace>
     <AssemblyName>$(RootNamespace)</AssemblyName>
-    <DocumentationFile>/bin/$(Configuration)/$(TargetFranework)/$(AssemblyName).xml</DocumentationFile>
+    <!-- <DocumentationFile>/bin/$(Configuration)/$(TargetFranework)/$(AssemblyName).xml</DocumentationFile> -->
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
     <NeutralLanguage>en</NeutralLanguage>
+    <ProductVersion />
   </PropertyGroup>
 
   <PropertyGroup Label="Debug and Exception Setting">
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <DefineConstants>$(DefineConstants)</DefineConstants>
     <DebugType Condition="'$(Configuration)' == 'Debug'">full</DebugType>
     <DebugType Condition="'$(Configuration)' != 'Debug'">pdbonly</DebugType>
     <Optimize Condition="'$(Configuration)' != 'Debug'">true</Optimize>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
     <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
   </PropertyGroup>
 
   <PropertyGroup>
